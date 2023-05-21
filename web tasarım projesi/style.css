@@ -1,0 +1,484 @@
+   *{
+    margin: 0;
+    padding: 0;
+
+   }
+   .container{
+   background-image:url(doğa.jpg);
+   height:100vh;
+   width:100%;
+   background-size:100% 100% ;
+   overflow: hidden;
+   
+   }
+   .navbar{
+    width: 100%;
+    height: 90px;
+    background: rgba(172, 246, 246, 0.397);
+   }
+   .logo{
+    display:inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+   }
+   .logo a{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 20px;
+    color:azure
+   }
+   .navbar ul{
+    float:right;
+    list-style: none;
+    
+   }
+   .navbar li{
+    float:left;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 3px;
+   }
+   .navbar ul li a{
+    list-style: none;
+    font-size: 20px;
+    font-family: monospace;
+    color: azure;
+    text-decoration: none;
+    padding: 6px 13px;
+   }
+   .navbar ul li a.active,
+   .navbar ul li a:hover{
+    background: rgba(213, 160, 61, 0.701);
+    border-radius: 100px;
+   }
+   .başlık{
+    width: 100%;
+    height: 20px;
+    margin-top: 100px; ;
+   }
+   .başlık h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+    color:rgba(146, 227, 24, 0.81) 
+   }
+   
+   .paragraf{
+    width: 30%;
+    height:150px;
+    margin-top: 10px;
+    float:left;
+   }
+   .paragraf p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align:justify;
+    color:rgb(51, 255, 0);
+   }
+   .resim a img{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 30%;
+    height:250px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: red;
+    background-size: 100% 100%;
+    float:left;
+    
+    
+   }
+   .resim1 a img{
+    width:25%;
+    height: 250px;
+    margin-left: 100px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: red;
+    float:left;
+   }
+   .resim2 a img{
+    width:25%;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: red;
+    float:left;
+   }
+   .paragraf1{
+    height:150px;
+    width: 60%;
+    
+    float:left;
+   }
+   .paragraf1 p{
+    width:100%;
+    margin-left: 80px;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color:rgb(75, 14, 216);
+    background-color: rgba(240, 248, 255, 0.37);
+    border-radius: 10px;
+    border-color: rgb(225, 13, 13);
+    border-style: groove;
+    border-width:110%; 
+
+   }
+   .başlık1{
+    height: 150px;
+    width: 100%;
+    background-color: bisque;
+    text-align: center;
+    padding-top: 100px;
+   
+   }
+   .başlık1 a{
+    font-size: 40px;
+    color:black;
+   }
+   .cv{
+    height: 500px;
+    width: 60%;
+    background-color: brown;
+    float:left;
+    
+    
+   }
+   .işdeneyimi{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(51, 49, 49);
+   }
+   .işdeneyimi h1{
+    text-align: center;
+    padding-top: 10px;
+    color: bisque;
+   }
+   .iş{
+    height: 100px;
+    width: 100%;
+    background-color: bisque;
+   }
+   .deneyim p{
+    font-size: 20px;
+    padding-top: 10px;
+    margin-left: 30px;
+    font-style: oblique;
+   }
+   .sertifika{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(51, 49, 49);
+   }
+   .sertifika h1{
+    text-align: center;
+    padding-top: 10px;
+    color: bisque;
+   }
+   .sertf{
+    background-color: bisque;
+    height: 100px;
+   }
+   .sertf p{
+    font-size: 20px;
+    padding-top: 10px;
+    margin-left: 30px;
+    font-style: oblique;
+   }
+   .bilgisayarbilgisi{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(51, 49, 49);
+   }
+   .bilgisayarbilgisi h1{
+    text-align: center;
+    padding-top: 10px;
+    color: bisque;
+   }
+   .bilgi{
+    background-color: bisque;
+    height: 250px;
+   }
+   .bilgi p{
+    font-size: 20px;
+    padding-top: 10px;
+    margin-left: 30px;
+    font-style: oblique;
+   }
+   .veri{
+    height: 600px;
+    width: 40%;
+    background-color:bisque;
+    float: left;
+   }
+   .veri ul{
+      margin-left: 50px;
+      margin-top: 30px;
+   }
+   .veri ul li{
+      font-size: 22px;
+      font-style: oblique;
+      margin-bottom: 30px;
+   }
+   .container2{
+      width:100%;
+      height:100vh;
+   }
+   .Başlık{
+      height: 150px;
+      width: 99%;
+      background-color: bisque;
+      float:left;
+      text-align: center;
+      padding-top: 50px;
+      border: 5px groove red;
+   }
+   .Başlık a{
+      font-size: 40px;
+      color: black;
+      border: 5px groove red;
+   }
+   .container2{
+      width: 100%;
+      height:100vh;
+      
+   }
+   .slider{
+      position: relative;
+      width: 500px;
+      height: 500px;
+      border-radius: 10px;
+      border-color: red;
+      border-style: groove;
+      margin-left: 5px;
+      overflow: hidden; 
+      float:left;
+   }
+   .slider-content {
+     position: absolute;
+      width:500px;
+      left:0px;
+      float:left;
+      animation:slide 20s infinite;
+   }
+   
+   .slider-items a img{
+      
+      height: 500px;
+      width: 500px;
+      float:left
+   }
+   
+   @keyframes slide{
+      0%{
+         transform: translateY(0px);
+      }
+      10%{
+         transform: translateY(-500px);
+      }
+      20%{
+         transform: translateY(-500px);
+      }
+      30%{
+         transform: translateY(-1000px);
+      }
+      40%{
+         transform: translateY(-1000px);
+      }
+      50%{
+         transform: translateY(-1500px);
+      }
+      60%{
+         transform: translateY(-1500px);
+      }
+      70%{
+         transform: translateY(-2000px);
+      }
+      80%{
+         transform: translateY(-2000px);
+      }
+      90%{
+         transform: translateY(0px);
+      }
+      100%{
+         transform: translateY(0px);
+      }
+   }
+   .bilgilendirme{
+      float:left;
+      width: 1007px;
+      height: 508px;
+      background-color: bisque;
+      border-color: red;
+   }
+   .bilgilendirme p{
+      font-size: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color:red;
+      margin-left: 10px;
+      text-align: justify;
+      
+   }
+   .container3{
+      width: 100%;
+      height:100vh;
+      background: url(çatalhöyük.jpg);
+      background-size: 100% 100%;
+      float: left;
+      
+   }
+   .başlık2{
+      height: 100px;
+      width: 99%;
+      float:left;
+      text-align: center;
+      padding-top: 50px;
+   }
+   .başlık2 a{
+      font-size: 40px;
+      color: black;
+   }
+   .arkeolog{
+      margin-left:30px;
+      padding-bottom:20px ;
+      float:left;
+   }
+   .arkeolog img{
+      width:500px;
+      height:250px;
+      border-radius: 5px;
+      border-color: red;
+      border-style: groove;
+   }
+   .açıklama{
+      width:700px;
+      height:250px;
+      margin-right: 80px;
+      border-radius: 10px;
+      background-color:rgba(245, 222, 179, 0.578) ;
+      float:right;
+      
+   }
+   .açıklama p{
+      font-size: 20px;
+      text-align: justify;
+   }
+   .açıklama2{
+      width:700px;
+      height:250px;
+      margin-left: 30px;
+      border-radius: 10px;
+      background-color:rgba(245, 222, 179, 0.578) ;
+      float: left;
+   }
+   .açıklama2 p{
+      font-size: 20px;
+      text-align: justify;
+   }
+   .arkeolog2{
+      margin-right:80px;
+      padding-bottom:100px ;
+      padding-top: 20px;
+      float: right;
+      
+   }
+   .arkeolog2 img{
+      width:500px;
+      height:250px;
+      border-radius: 5px;
+      border-color: red;
+      border-style: groove;
+      
+   }
+   .giriş {
+      width: 100%;
+      height: 100vh;
+      background-size: 100% 100%;
+      background-color: bisque;
+      padding-left: 600px;
+      padding-top: 300px;
+   }
+   .ayarlama{
+      width: 400px;
+      height:300px;
+      background-color:grey ;
+      padding-left:50px ;
+      padding-top: 70px;
+      border-radius: 20px;
+      border-style: inset;
+      border-color: aquamarine;
+      
+      
+   }
+   .giriş button{
+      margin-left: 30px;
+      margin-top: 10px;
+   }
+   .giriş td{
+      margin-left: 10px;
+      
+   }
+   .container4{
+      width: 100%;
+      height:100vh;
+      float:left;
+   }
+   .iletişim{
+      width: 50%;
+      height: 100px;
+      float: left;
+      background-color: bisque;
+      padding-top: 50px;
+   }
+   .iletişim a{
+      margin-left: 100px;
+      font-size: 30px;
+   }
+   .form{
+      background-color:bisque;
+      width:50%;
+      height:600px;
+      float:left;
+      border-radius: 10px;
+      border-style: double;
+      border-color: black;
+   }
+   .form input{
+      margin-left: 10px;
+      margin-top: 10px;
+      width: 450px;
+      height: 30px;
+   }
+   .form textarea{
+      margin-left: 10px;
+      margin-top: 10px;
+      width: 600px;
+      height: 350px;
+   }
+   .form button{
+      margin-left: 10px;
+      margin-top: 10px;
+   }
+   .location{
+      width: 50%;
+      height: 100px;
+      float: left;
+      background-color: bisque;
+      padding-top: 50px;
+   }
+   .location a{
+      margin-left: 100px;
+      font-size: 30px;
+   }
+   
+   
+   
+
+
+   
